@@ -123,7 +123,7 @@ const Contact: React.FC = () => {
           {/* Contact Form */}
           <div className="bg-white dark:bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-              Envoyez-moi un Message111
+              Envoyez-moi un Message
             </h3>
 
             {isSubmitted && (
