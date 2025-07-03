@@ -137,8 +137,10 @@ const Contact: React.FC = () => {
 
             <form 
              action="https://formsubmit.co/297c5bf219d5ced138904c6564b5ece9"  // <-- use your actual Formspree endpoint
-  method="POST"
-  className="space-y-6">
+            method="POST"
+            className="space-y-6">
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="https://hamza-ait-youssef.netlify.app/" />
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
