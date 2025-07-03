@@ -123,7 +123,7 @@ const Contact: React.FC = () => {
           {/* Contact Form */}
           <div className="bg-white dark:bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-              Envoyez-moi un Message
+              Envoyez-moi un Message111
             </h3>
 
             {isSubmitted && (
@@ -136,7 +136,7 @@ const Contact: React.FC = () => {
             )}
 
             <form 
-             action="https://formsubmit.co/297c5bf219d5ced138904c6564b5ece9"  // <-- use your actual Formspree endpoint
+             action="https://formsubmit.co/hamzaaityoussef50@gmail.com"  // <-- use your actual Formspree endpoint
             method="POST"
             className="space-y-6">
             <input type="hidden" name="_captcha" value="false" />
